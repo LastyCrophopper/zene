@@ -22,29 +22,57 @@ nav a{
     text-decoration:none;
     color:white;
     font-weight:bold;
-    letter-spacing:1px;
     font-size:18px;
-    transition:0.3s;
 }
 
 nav a:hover{
     color:#ffe8a3;
 }
-
-header img{
-    width:100%;
-    display:block;
+header{
+    display:grid;
+    justify-content:center;
 }
 
-.intro{
+header img{
+    width:80%;
+    max-width:1000px;
+}
+
+article{
     padding:40px 10%;
 }
 
-.intro h1{
+h1{
     color:#1aa3a3;
     font-size:36px;
 }
 
-.intro p{
+h2{
+    color:#1aa3a3;
+}
+
+p{
     line-height:1.6;
+}
+
+article section:nth-child(2){
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap:40px;
+    align-items:center;
+    margin-top:40px;
+}
+article section:nth-child(2) div:first-child{
+    background-color:#e0c88a;
+    padding:25px;
+    border-radius:10px;
+}
+
+
+
+
+article section:nth-child(2) img{
+    width:250px;
+    border-radius:50%;
+    justify-self:center;
 }
