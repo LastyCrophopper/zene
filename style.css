@@ -5,12 +5,13 @@ body{
 }
 
 nav{
-    background-color:#1aa3a3;
+    background-color:#1dafaf;
     padding:20px 0;
 }
 
 
 nav ul{
+
     list-style: none;
     margin: 0;
     padding: 0;
